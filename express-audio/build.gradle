@@ -26,7 +26,7 @@ android {
     task downloadSDK(type:Exec) {
 
         workingDir './'
-        commandLine "python", "download_native_sdk.py", "--sdk_download_url", "http://ci.zego.cloud/job/rtc/job/rtc_native_sdk/23344/artifact/ZegoExpressAudio_23344_output.yaml.txt", "--sdk_zip_root_folder", "release/Library"
+        commandLine "python", "download_native_sdk.py", "--sdk_download_url", "https://artifact-node.zego.cloud/generic/rtc/public/native/ZegoExpressAudio/android/ZegoExpressAudio-android-shared-java.zip?version=2.22.0.23344", "--sdk_zip_root_folder", "release/Library"
 
     }
 
